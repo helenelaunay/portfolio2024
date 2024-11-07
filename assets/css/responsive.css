@@ -50,7 +50,7 @@
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){
-	.single-about-img {max-width: 450px;}
+	.single-about-img {max-width: 450px; margin: auto;}
 	.experience-time span>i,.timeline-content span>i,.main-timeline:before {display: none;}
 	.experience-time, .timeline-content {margin-left: 0;}
 
@@ -60,6 +60,10 @@
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+	.skill-border {
+		border-bottom: 0px solid #b2c1ce;
+	}
+	.contact-adress {flex-direction: column;}
 
 }/*max-width:767px*/
 
