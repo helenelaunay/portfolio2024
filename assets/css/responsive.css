@@ -57,6 +57,7 @@
 	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
 
 	.single-profile {max-width: 350px; margin: 30px auto;border: 0;}
+	.single-about-add {justify-content: center;}
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
@@ -89,8 +90,10 @@
 	
 }/*max-width:480px*/
 
-@media screen and (max-width: 440px){
-	
+@media screen and (max-width: 415px){
+	.single-about-add-info h3 {
+		text-align: center;
+	}
 }/*max-width:400px*/
 
 @media screen and (max-width:350px){
