@@ -521,7 +521,7 @@ video {
     -o-transition: .5s;
     transition: .5s;
 }
-.isotope-overlay a {
+.isotope-overlay a,p {
     display: inline-block;
     color: #fff;
     font-size: 14px;
